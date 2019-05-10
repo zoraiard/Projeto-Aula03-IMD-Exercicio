@@ -12,12 +12,12 @@ import br.ufrn.imd.model.Veiculo;
 
 @ManagedBean
 @SessionScoped
-public class CadastrarVeiculoMBaean {
+public class CadastrarVeiculoMBean {
 
 	private Veiculo veiculo;
 	private List<Veiculo> veiculos;
 	
-	public CadastrarVeiculoMBaean() {
+	public CadastrarVeiculoMBean() {
 		this.veiculo = new Veiculo();
 		veiculos = new ArrayList();
 	}
